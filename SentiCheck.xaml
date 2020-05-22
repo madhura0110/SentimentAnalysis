@@ -1,0 +1,15 @@
+﻿<Window x:Class="SentimentAnalysis.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SentimentAnalysis"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="148,58,0,0" Text="Hi, How are you feeling today?" TextWrapping="Wrap" VerticalAlignment="Top" Height="28" Width="339"/>
+        <TextBox x:Name="AllEars" HorizontalAlignment="Left" Margin="148,119,0,0" Text="I'm all ears..." TextWrapping="Wrap" VerticalAlignment="Top" Width="339" Height="53"/>
+        <Button Content="Analyze" HorizontalAlignment="Left" Margin="534,136,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <TextBlock x:Name="AnalysisResult" HorizontalAlignment="Left" Margin="148,258,0,0" Text="Your result will appear here.." TextWrapping="Wrap" VerticalAlignment="Top" Height="85" Width="339" Visibility="Hidden"/>
+    </Grid>
+</Window>
