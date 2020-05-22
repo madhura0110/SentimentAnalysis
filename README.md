@@ -7,7 +7,7 @@ This is a simple WPF .NetCore Application that uses XAML front end and C# as the
 
 ![Image description](https://github.com/madhura0110/SentimentAnalysis/blob/master/SentimentAnalysis/Input.PNG)
 
-Logic: The application makes an HTTP POST request to a public Web API (https://sentim-api.herokuapp.com/) that provides sentiment analysis result.
+The application makes an HTTP POST request to a public Web API (https://sentim-api.herokuapp.com/) that provides sentiment analysis result.
 
 <b>Output</b>: The Web API returns a JSON response, which the application then parses to determine the overall sentiment of the user input.
 
