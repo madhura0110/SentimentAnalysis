@@ -11,6 +11,6 @@ Logic: The application makes an HTTP POST request to a public Web API (https://s
 
 <b>Output</b>: The Web API returns a JSON response, which the application then parses to determine the overall sentiment of the user input.
 
-https://github.com/madhura0110/SentimentAnalysis/blob/master/SentimentAnalysis/Postive.PNG
+![Positive Sentiment](https://github.com/madhura0110/SentimentAnalysis/blob/master/SentimentAnalysis/Postive.PNG)
 
-https://github.com/madhura0110/SentimentAnalysis/blob/master/SentimentAnalysis/Negative.PNG
+![Negative Sentiment](https://github.com/madhura0110/SentimentAnalysis/blob/master/SentimentAnalysis/Negative.PNG)
